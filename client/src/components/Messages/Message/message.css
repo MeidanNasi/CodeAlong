@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Titan+One&display=swap");
+
+.message-container {
+  background-color: #93c0d4;
+  border-style: solid;
+  border-width: 0.1vh;
+  border-color: darkgrey;
+  border-radius: 3vh;
+  padding: 3vh;
+  margin: 3vh 0;
+  width: 60vh;
+  font-family: "Baloo Tamma 2";
+}
+
+.time-right {
+  float: right;
+  color: rgb(255, 255, 255);
+}

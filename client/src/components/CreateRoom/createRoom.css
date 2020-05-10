@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,700;1,900&display=swap");
+.landing {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../../assets/bac2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.landingImg {
+  height: 100vh;
+}
+
+.landing-header {
+  height: 60vh;
+  width: 105vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(224, 224, 224);
+  box-shadow: 1px 6px 10px 7px rgba(0, 0, 0, 0.3);
+  border-radius: 9px;
+}
+.landing-header label {
+  font-size: 7vw;
+  font-family: "Roboto";
+  color: rgb(15, 9, 49);
+  margin-bottom: 2vh;
+  text-align: left;
+}
+.landing-header p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3vw;
+  width: 85vh;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  margin: 0.5vh;
+}
+#thateasy {
+  font-size: 1.8vw;
+  font-weight: bold;
+  font-family: "Montserrat";
+  color: rgb(40, 24, 131);
+  margin-bottom: 3vh;
+}
+.enter-room-input {
+  height: 2vh;
+  width: 15vh;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  font-size: 1vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: black;
+}
+
+#form-label {
+  font-size: 1.5vw;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  margin-bottom: 0vh;
+  font-weight: bold;
+  margin-right: 2vh;
+}
+.landing-button {
+  margin-top: 5vh;
+  width: 16vw;
+  height: 9vh;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 9vh;
+  border-color: black;
+  background-color: rgb(228, 228, 228);
+  text-align: center;
+  color: rgb(30, 6, 116);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 1.4vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.landing-button:hover {
+  background-color: rgb(30, 6, 116);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}

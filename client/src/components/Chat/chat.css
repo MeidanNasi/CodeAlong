@@ -1,0 +1,14 @@
+.outerContainer {
+  opacity: 0.9;
+  background-color: #6676be;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  width: 90%;
+  border-style: solid;
+  border-radius: 2vh;
+  border-width: 0.1vh;
+  border-color: darkgrey;
+}

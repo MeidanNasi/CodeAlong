@@ -1,0 +1,38 @@
+.form {
+  opacity: 0.9;
+  display: flex;
+  border-style: solid;
+  border-style: solid;
+  border-radius: 2vh;
+  border-width: 0.1vh;
+  background-color: #0d163f;
+  width: 90%;
+  height: 20%;
+  margin-bottom: 2vh;
+  overflow-wrap: break-word;
+}
+
+.input {
+  color: white;
+  padding: 1vh;
+  font-size: 1vw;
+  margin-bottom: 2vh;
+  background-color: transparent;
+  border-style: none;
+  font-family: "Baloo Tamma 2";
+  width: 92%;
+  overflow-y: scroll;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sendButton {
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border-style: none;
+}
