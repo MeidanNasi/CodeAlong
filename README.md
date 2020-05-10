@@ -6,11 +6,13 @@ Project built with ReactJs and NodeJs.
 ## Usage (locally):
 
 1. clone/download.
-2. Install dependencies for each dir (client/server): `npm install`.
-3. Fire up the server from server dir: `node server.js`.
-4. Fire up the client from client dir: `npm start`.
-5. Point your browser to: `http://localhost:3000`.
-6. Create room and open a new tab with same url.
+2. create your turn account here:  http://numb.viagenie.ca/cgi-bin/numbacct
+3. fill up your details in client/src/config.json
+4. Install dependencies for each dir (client/server): `npm install`.
+5. Fire up the server from server dir: `node server.js`.
+6. Fire up the client from client dir: `npm start`.
+7. Point your browser to: `http://localhost:3000`.
+8. Create room and open a new tab with same url.
 
 ## Note:
 for deployment, client side must support HTTPS for media permmisions.
