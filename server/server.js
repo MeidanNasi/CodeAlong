@@ -1,17 +1,7 @@
 
 const app = require("express")();
-// const https = require('https');
-// const fs = require('fs');
-
-// const httpsServer = https.createServer({
-//   key: fs.readFileSync('/etc/letsencrypt/live/justcodealongwithme.live/privkey.pem'),
-//   cert: fs.readFileSync('/etc/letsencrypt/live/justcodealongwithme.live/fullchain.pem'),
-// }, app);
-
 const server = require("http").Server(app);
 const io = require("socket.io")(server);
-
-//const io = require("socket.io")(httpsServer);
 
 io.on("connection", function(socket) {
   console.log("connected..");
@@ -51,6 +41,3 @@ io.on("connection", function(socket) {
 
 server.listen(8080, () => console.log("listening on port 8080"));
 
-// httpsServer.listen(443, () => {
-//   console.log('HTTPS Server running on port 443');
-// });
