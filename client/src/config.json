@@ -1,0 +1,8 @@
+{
+  "REACT_APP_SIGNALING_SERVER": "localhost:8080",
+  "REACT_APP_STUN_SERVERS": "stun:stun4.l.google.com:19302",
+  "REACT_APP_TURN_SERVERS": "turn:numb.viagenie.ca",
+  
+  "REACT_APP_TURN_USERNAME": " Yours... ",
+  "REACT_APP_TURN_CREDENCIAL": " Yours ..."
+}
