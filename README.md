@@ -4,7 +4,7 @@ https://codealong.netlify.app
 
 CodeAlong is a peer to peer realtime media streaming application for code meetings,<br/>
 enables video, audio, messages and screen sharing,
-using **WebRTC, socket.io and socket.io-client** . <br/>
+using **WebRTC, socket.io and socket.io-client**. <br/>
 Project built with ReactJs and NodeJs.
 
 ![Image 1](https://github.com/MeidanNasi/CodeAlong/blob/master/screenshot.PNG)
