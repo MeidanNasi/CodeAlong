@@ -1,6 +1,7 @@
 # CodeAlong - Realtime Video Chat  
 
 https://codealong.netlify.app
+create your room and send the url to your partner! easy right?
 
 CodeAlong is a peer to peer realtime media streaming application for code meetings,<br/>
 enables video, audio, messages and screen sharing,
